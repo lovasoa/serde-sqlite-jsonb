@@ -174,3 +174,7 @@ byte | value | description
 ## MSRV
 
 Requires rust >= 1.63 (debian stable)
+
+## Profile-Guided Optimization (PGO)
+
+According to the [tests](https://github.com/lovasoa/serde-sqlite-jsonb/discussions/1#discussion-6500343), PGO helps with achieving better performance - up to ~20% speed up. So if you want to optimize the library usage - consider enabling PGO for your application.
